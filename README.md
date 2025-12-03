@@ -7,6 +7,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [Requirements](#requirement)
 - [Dataset Setup](#dataset-setup)
 - [Running the System](#running-the-system)
 - [System Architecture](#system-architecture)
@@ -22,6 +23,14 @@ This is a complete, locally-running Information Retrieval (IR) system that imple
 - **BM25** probabilistic ranking
 - **Vector Space Model** with cosine similarity
 
+## Requirements
+
+- Python 3.7
+- pandas
+- numpy
+- nltk
+- scikit-learn
+
 ## Dataset Setup
 
 ### Option 1: Using the Assignment Dataset
@@ -33,6 +42,10 @@ This is a complete, locally-running Information Retrieval (IR) system that imple
 ## Running the System
 
 This will:
+```python
+python ir_system.py
+```
+
 1. Load and preprocess the dataset
 2. Build the inverted index
 3. Initialize all retrieval models
@@ -195,11 +208,6 @@ ir-system/
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
 ├── news_articles.csv         # Dataset (not included, download separately)
-│
-├── screenshots/              # Screenshots for AI disclosure
-│   ├── prompt_1.png
-│   ├── prompt_2.png
-│   └── ...
 │
 └── results/                  # Evaluation results (generated)
     ├── evaluation_results.json
