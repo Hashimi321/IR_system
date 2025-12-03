@@ -7,7 +7,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Requirements](#requirement)
+- [Requirements](#requirements)
 - [Dataset Setup](#dataset-setup)
 - [Running the System](#running-the-system)
 - [System Architecture](#system-architecture)
@@ -41,11 +41,10 @@ This is a complete, locally-running Information Retrieval (IR) system that imple
 
 ## Running the System
 
-This will:
 ```python
 python ir_system.py
 ```
-
+This will:
 1. Load and preprocess the dataset
 2. Build the inverted index
 3. Initialize all retrieval models
