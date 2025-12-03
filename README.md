@@ -6,13 +6,13 @@
 **Instructor:** Dr. Ahmad Mustafa  
 
 ## Table of Contents
-- [Overview]
-- [Dataset Setup]
-- [Running the System]
-- [System Architecture]
-- [Retrieval Models]
-- [Evaluation]
-- [Project Structure]
+- [Overview](#overview)
+- [Dataset Setup](#dataset-setup)
+- [Running the System](#running-the-system)
+- [System Architecture](#system-architecture)
+- [Retrieval Models](#retrieval-models)
+- [Evaluation](#evaluation)
+- [Project Structure](#project-structure)
 
 ## Overview
 
