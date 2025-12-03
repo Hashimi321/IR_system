@@ -59,7 +59,7 @@ from ir_system import InformationRetrievalSystem
 ir_system = InformationRetrievalSystem("news_articles.csv")
 
 # Search using different models
-results = ir_system.search("election politics", top_k=10, model='hybrid')
+results = ir_system.search("election politics", top_k=10, model='bm25')
 
 # Display results
 ir_system.display_results(results)
